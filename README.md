@@ -1,10 +1,10 @@
 # ETL_pipeline
 
-As an analytics engineer, my role is to automate processess to help provide faster access and user-friendly product catalog for my data users. 
+As an analytics engineer, my role is to automate processes to help provide faster access to a user-friendly product catalog for my data users.
 
-Generally, analysts on the teams have to manually retrieve and clean data every quarter to understand changes in the sales and capability of different energy types. This process normally takes days and was something that most analysts dread. My job is to automate this process by building a data pipeline. 
+Generally, analysts on the team have to manually retrieve and clean data every quarter to understand changes in sales and the capabilities of different energy types. This process typically takes days and is something most analysts dread. My job is to automate this process by building a data pipeline.
 
-Below is my plan for writing a data pipeline to pull data each month, helping to provide more rapid insights and free up time for my data consumers.
+Below is my plan for writing a data pipeline that will pull data each month, enabling more rapid insights and freeing up time for my data consumers.
 
 1. First, I defined an 'extract_tabular_data()' function to ingest tabular data.
 - This function will take a single parameter, file_path. If file_path ends with .csv, use the pd.read_csv() function to extract the data.
