@@ -13,7 +13,7 @@ Below is my plan for writing a data pipeline that will pull data each month, ena
 
 2. Next, I created another function with the name 'extract_json_data()', which takes a file_path. Use the json_normalize() function from the pandas library to flatten the nested JSON data, and return a pandas DataFrame.
 
-3. After, I built a function to transform the electricity sales data. To do that, I created a function called 'transform_electricity_sales_data()' which takes a single parameter raw_data (should be of type pd.DataFrame.) The transform_electricity_sales_data() needs to fullfil some requirements that are described below in the docstring following the function definition.
+3. After, I built a function to transform the electricity sales data. To do that, I created a function called 'transform_electricity_sales_data()' which takes a single parameter raw_data (should be of type pd.DataFrame.) The transform_electricity_sales_data() is used to fullfill needs and requirements collected from data users.
 
 4. Lastly, to load a DataFrame to a file, I defined one more function called load(), which takes a DataFrame and a file_path.
 - If the file_path ends with .csv, load the DataFrame to a CSV file.
